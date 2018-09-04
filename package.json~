@@ -1,0 +1,26 @@
+{
+  "name": "eltbot",
+  "version": "1.0.0",
+  "description": "ELTBOT + Wallet Auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "Oli",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "atob": "^2.1.1",
+    "ethereum-qr-code": "^0.3.0",
+    "ethers": "^3.0.25",
+    "imgur": "^0.2.1",
+    "telegraf": "^3.21.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "supervisor": "^0.12.0"
+  }
+}
